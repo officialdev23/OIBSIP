@@ -1,0 +1,80 @@
+@media (max-width:1100px){
+    /* Top banner */
+    .home .top-banner .text p{
+        width: 50%;
+    }
+}
+
+@media (max-width:1000px){
+    /* Top banner */
+    .home .top-banner .text p{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:900px){
+    /* Header design */
+    nav .navbar{
+        width: 90%;
+    }
+
+    nav .navbar .menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background-color: var(--white-color);
+        height: 100vh;
+        max-width: 25rem;
+        width: 100%;
+        padding-top: 3.75rem;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+
+    nav .menu-btn,
+    nav .menu .cancel-btn{
+        display: block;
+        color: var(--primary-color);
+    }
+
+    nav .menu-btn{
+        color: var(--white-color);
+    }
+
+    nav .menu-btn.active{
+        color: var(--black-color);
+    }
+
+    .navbar.active .menu{
+        left: 0;
+    }
+
+    nav .navbar .menu li a{
+        font-size: 1.4rem;
+        color: var(--black-color);
+        display: block;
+        margin: 0.625rem 0;
+        cursor:pointer;
+    }
+
+    /* Top banner */
+    .home .top-banner .text p{
+        width: 70%;
+    }
+}
+
+@media(max-width:750px){
+    .home .top-banner .content{
+        width: 90%;
+    }
+
+    .home .top-banner .text h1{
+        font-size: 2rem;
+    }
+
+    .home .top-banner .text p{
+        width: 90%;
+        line-height: 2rem;
+    }
+}
