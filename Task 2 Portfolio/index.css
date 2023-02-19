@@ -191,3 +191,167 @@ button:hover{
     border: 2px solid var(--btn-color);
     cursor: pointer;
 }
+
+/* Service Section */
+
+.service{
+    background-color: #657040;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: var(--text-color);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: var(--background-color);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: var(--btn-color);
+}
+
+.card h5{
+    color: var(--text-color);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.msg p{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card .button{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid var(--btn-color);
+    cursor: pointer;
+}
+
+/* offer Section */
+.offer{
+    width:100%;
+    height: 300px;
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer p{
+    color :var(--text-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.offer .offerbtn{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.offer .offerbtn:hover{
+    background-color: transparent;
+    border: 2px solid var(--btn-color);
+    cursor: pointer;  
+}
+
+/* footer */
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #657040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: var(--text-color);
+    font-family: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media a{
+    width:45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:var(--btn-color);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.social-media a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: var(--btn-color);
+    bottom: 35px;
+    font-size: 17px;
+}
